@@ -1,0 +1,10 @@
+.urologia-25 {
+  background-image: url("/public/25/fondo.jpg");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-left: 35%;
+}

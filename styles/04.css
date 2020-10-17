@@ -1,0 +1,130 @@
+/* 04 */
+.introduccion-04 {
+  display: flex;
+  flex: auto;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("/public/04/fondo.jpg");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+}
+.introduccion-04-left {
+  width: 30%;
+  text-align: center;
+  margin: 40px auto;
+}
+.introduccion-04-left__img {
+  width: 300px;
+}
+.introduccion-04-right {
+  width: 70%;
+}
+.introduccion-04__top {
+  font-size: 36px;
+  color: #da1c40;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 5%;
+}
+.introduccion-04__bottom {
+  display: flex;
+}
+.introduccion-04__bottom--left,
+.introduccion-04__bottom--right {
+  width: 50%;
+  text-align: center;
+}
+.introduccion-04__buttom--right {
+}
+.buttom__right--img,
+.bottom__left--img {
+  width: 120px;
+  margin: 0 auto;
+}
+.bottom__left--number {
+  font-size: 96px;
+  color: #da1c40;
+  font-weight: bold;
+}
+.bottom__left--number-text {
+  text-align: center;
+}
+.buttom__right--text {
+  margin-left: -50px;
+  text-align: center;
+  margin-top: 150px;
+}
+.buttom__right--img {
+  margin-left: 50px;
+}
+.buttom__right--img-panel {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -90px;
+}
+.buttom__right--img-mas {
+  width: 40px;
+}
+.panel-text-04 {
+  position: absolute;
+
+  width: 250px;
+  text-align: right;
+}
+.buttom__right--img-mas:hover {
+  cursor: pointer;
+}
+.panel-text-04-hide {
+  display: none;
+}
+.introduccion-04__barra {
+  width: 90%;
+  height: 40px;
+  background-color: #da1c40;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  opacity: 0.7;
+}
+@media (max-width: 992px) {
+  /* 04 */
+  .introduccion-04 {
+    flex-direction: column;
+  }
+  .introduccion-04-left,
+  .introduccion-04-right {
+    width: 100%;
+  }
+  .introduccion-04-left {
+    text-align: center;
+  }
+  .introduccion-04__top {
+    margin-top: 0px;
+  }
+  .introduccion-04__bottom {
+    flex-direction: column;
+  }
+  .introduccion-04__bottom--left,
+  .introduccion-04__buttom--right {
+    width: 100%;
+  }
+  .introduccion-04__buttom--right {
+    flex-direction: column;
+  }
+  .buttom__right--text {
+    margin-left: 0;
+  }
+  .buttom__right--img {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .buttom__right--img-panel {
+    margin-left: 110px;
+    margin-top: 25px;
+  }
+  .panel-text-04 {
+    margin-top: 250px;
+  }
+}

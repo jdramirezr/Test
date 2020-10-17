@@ -1,0 +1,35 @@
+import "../styles/01.css";
+import "../styles/02.css";
+import "../styles/03.css";
+import "../styles/04.css";
+import "../styles/05.css";
+import "../styles/06.css";
+import "../styles/07.css";
+import "../styles/08.css";
+import "../styles/09.css";
+import "../styles/10.css";
+import "../styles/11.css";
+import "../styles/12.css";
+import "../styles/13.css";
+import "../styles/14.css";
+import "../styles/15.css";
+import "../styles/16.css";
+import "../styles/17.css";
+import "../styles/18.css";
+import "../styles/19.css";
+import "../styles/20.css";
+import "../styles/21.css";
+import "../styles/22.css";
+import "../styles/23.css";
+import "../styles/24.css";
+import "../styles/25.css";
+import "../styles/26.css";
+import "../styles/27.css";
+import "../styles/28.css";
+import "../styles/submenu.css";
+import "../styles/globals.css";
+
+const MyApp = ({ Component, pageProps }) => {
+  return <Component {...pageProps} />;
+};
+export default MyApp;

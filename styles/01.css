@@ -1,0 +1,38 @@
+/* 01 */
+.img-portada {
+  width: 100%;
+  background-image: url("/public/01/portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: auto;
+}
+.img-portada-logo__img {
+  width: 300px;
+  margin: 100px 0 0 50px;
+}
+.img-portada-texto {
+  margin: 0 0 0 80px;
+  color: white;
+  font-size: 72px;
+}
+
+@media (max-width: 992px) {
+  /* 01 */
+  .img-portada {
+    background-image: none;
+    background-color: #bd2e29;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .img-portada-logo__img,
+  .img-portada-texto {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+  }
+  .img-portada-texto {
+    font-size: 48px;
+  }
+}

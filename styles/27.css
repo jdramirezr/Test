@@ -1,0 +1,21 @@
+.urologia-27 {
+  background-image: url("/public/27/fondo.png");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.urologia-27-panel__logos {
+  margin-top: 10%;
+}
+.urologia-27-panel__text {
+  color: white;
+  font-size: 24px;
+}
+.urologia-27-panel__logos--img {
+  width: 250px;
+}

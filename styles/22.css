@@ -1,0 +1,11 @@
+.urologia-22 {
+  background-image: url("/public/22/fondo.jpg");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+  box-sizing: border-box;
+}

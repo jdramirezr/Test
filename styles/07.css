@@ -1,0 +1,102 @@
+/* 07 */
+.programas-07 {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+.programas-07-top {
+  width: 100%;
+  height: 45vh;
+  background-image: url("/public/07/07.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.programas-07-top__title {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.programas-07__bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.programas-07__bottom-item {
+  flex: none;
+  flex-direction: row;
+  justify-content: center;
+}
+.programas-07__bottom-item--number {
+  color: #da1c40;
+  background-color: white;
+  border: solid 1px gray;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 0px 20px;
+  max-width: 55px;
+  width: 100%;
+  margin: 0 auto;
+}
+.programas-07__bottom-item--number:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #da1c40;
+}
+.programas-07__number-red {
+  background-color: #da1c40;
+  color: white;
+  border: solid 1px white;
+}
+.programas-07__bottom-item--line-01-a {
+  text-decoration: none;
+}
+.programas-07__bottom-item--text {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.programas-07__bottom-item--line-01 {
+  width: 50%;
+  border-right: solid 2px rgb(190, 190, 190);
+  height: 100px;
+  margin: 5px 0;
+}
+.programas-07__bottom-item--line-02 {
+  width: 50%;
+  border-right: solid 2px rgb(190, 190, 190);
+  height: 50px;
+  margin: 5px 0;
+}
+.programas-07__bottom-item--line-03 {
+  width: 50%;
+  border-right: solid 2px rgb(190, 190, 190);
+  height: 30px;
+  margin: 5px 0;
+}
+.programas-07__bottom-item--line-04 {
+  width: 50%;
+  border-right: solid 2px rgb(190, 190, 190);
+  height: 20px;
+  margin: 5px 0;
+}
+.programas-07__bottom-item-01 {
+  margin-left: 100px;
+}
+@media (max-width: 992px) {
+  /* 07 */
+  .programas-07-top {
+    background-image: none;
+    background-color: #da1c40;
+  }
+  .programas-07-top__title {
+    margin: 90px auto;
+    text-align: center;
+  }
+  .programas-07__bottom {
+    flex-direction: column;
+  }
+  .programas-07__bottom-item-01 {
+    margin-left: 0px;
+  }
+}

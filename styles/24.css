@@ -1,0 +1,47 @@
+.urologia-24 {
+  display: flex;
+  width: 100%;
+  background-image: url("/public/24/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 4% 35% 0 12%;
+}
+.urologia-24-right-img {
+  width: 150px;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 3%;
+}
+.urologia-24-left {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 10%;
+}
+.urologia-24-title {
+  font-size: 30px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  line-height: 130%;
+  color: #da1c40;
+  border: solid 2px #da1c40;
+}
+.urologia-24__title-text {
+  font-size: 20px;
+}
+.urologia-24-text {
+  font-size: 20px;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  line-height: 130%;
+}
+.urologia-24-text {
+  margin-top: 20px;
+
+  padding: 20px 40px;
+  box-sizing: border-box;
+  width: 90%;
+}

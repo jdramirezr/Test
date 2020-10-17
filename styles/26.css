@@ -1,0 +1,65 @@
+.urologia-26 {
+  background-image: url("/public/26/fondo.jpg");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-top: 5%;
+  color: #706563;
+}
+.urologia-26-left,
+.urologia-26-right {
+  width: 40%;
+}
+.urologia-26-left__title {
+  border: solid 2px #da1c40;
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+.urologia-26-left__title-gray {
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: #706563;
+  box-sizing: border-box;
+}
+.urologia-26-left__title-foros {
+  font-size: 36px;
+  color: #da1c40;
+  font-weight: bold;
+}
+.urologia-26-left__title-semi {
+  font-size: 24px;
+  color: #da1c40;
+  font-weight: bold;
+}
+.urologia-26-left__title-text {
+  color: #da1c40;
+}
+.urologia-26-left__text {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+.urologia-26-left__text-span--gray {
+  font-size: 24px;
+  box-sizing: border-box;
+}
+.urologia-26-left__text-span--red {
+  font-size: 24px;
+  box-sizing: border-box;
+  color: #da1c40;
+}
+.urologia-26-right {
+  display: flex;
+  justify-content: end;
+}
+.urologia-26-right__text {
+  padding-left: 10%;
+  color: white;
+  font-size: 12px;
+  width: 55%;
+  line-height: 130%;
+  margin-top: 70%;
+}

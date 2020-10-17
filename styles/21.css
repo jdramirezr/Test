@@ -1,0 +1,15 @@
+.urologia-21 {
+  background-image: url("/public/21/fondo.png");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13%;
+  box-sizing: border-box;
+}
+.urologia-21-text {
+  font-size: 36px;
+  color: white;
+}

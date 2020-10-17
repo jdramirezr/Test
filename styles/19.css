@@ -1,0 +1,48 @@
+.avanzado-19 {
+  width: 100%;
+  display: flex;
+  flex: auto;
+  background-image: url("/public/19/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  padding: 0 5%;
+  box-sizing: border-box;
+  color: white;
+}
+.avanzado-19__panel {
+  width: 65%;
+}
+.avanzado-19__panel-logo {
+  width: 200px;
+  display: flex;
+  margin: 0 0 0 auto;
+}
+.avanzado-19__panel-title {
+  border: solid 1px white;
+  padding: 40px 30px;
+  font-size: 36px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.avanzado-19__panel-info-a {
+  color: #da1c40;
+  text-decoration: none;
+}
+.avanzado-19__panel-info {
+  background-color: white;
+  width: 50px;
+  padding: 2px 7px;
+  margin: -10px auto 0 65%;
+}
+.avanzado-19__panel-text {
+  font-size: 20px;
+  padding: 40px 30px;
+  line-height: 130%;
+}
+
+@media (max-width: 992px) {
+  .avanzado-19 {
+    background-image: none;
+  }
+}

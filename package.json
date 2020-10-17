@@ -1,0 +1,17 @@
+{
+  "name": "salud-digital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-hook/hover": "^4.0.0",
+    "next": "9.5.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-modal-hook": "^3.0.0"
+  }
+}

@@ -1,0 +1,140 @@
+/* 09 */
+.separator-09 {
+  margin-left: -15px;
+  width: 25px;
+  margin-top: 20px;
+}
+.basico-09 {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("/public/09/fondo.jpg");
+  background-size: cover;
+  width: 100%;
+  flex: auto;
+}
+.basico-09__left {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 50px;
+}
+.basico-09__right {
+  width: 30%;
+  margin-top: 50px;
+}
+.basico-09__left--panel {
+  display: flex;
+  flex-direction: row;
+}
+.basico-09__right--img {
+  width: 300px;
+}
+.basico-09-left__number {
+  width: 100px;
+  margin-left: 10%;
+}
+.basico-09__left--title {
+  display: flex;
+  text-align: center;
+  font-size: 38px;
+  color: #da1c40;
+  margin-top: 20px;
+  border: solid #da1c40 1px;
+  margin-left: -25px;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+}
+.basico-09__left--title-img {
+  height: 58px;
+}
+.basico-09__left--panel {
+  display: flex;
+  justify-content: space-between;
+}
+.basico-09__left--item {
+  padding: 10px;
+  width: 20%;
+}
+.basico-09__left--number {
+  color: #da1c40;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.basico-09__left--text {
+  min-height: 80px;
+  line-height: 130%;
+  font-size: 14px;
+}
+.basico-09__left--info {
+  color: #da1c40;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.basico-09__left--info {
+  cursor: pointer;
+}
+.basico-09__left--button-info-a {
+  color: white;
+  text-decoration: none;
+}
+.basico-09__left--button-info {
+  font-size: 12px;
+  background-color: #da1c40;
+  color: white;
+  height: 16px;
+  padding: 3px 8px 0px 8px;
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 50%;
+}
+.basico-09__left--title-text {
+  align-items: center;
+  display: flex;
+}
+@media (max-width: 992px) {
+  /* 09 */
+  .basico-09 {
+    flex-direction: column;
+  }
+  .basico-09__left {
+    width: 100%;
+    padding: 0;
+  }
+  .basico-09__right {
+    width: 100%;
+    text-align: center;
+  }
+  .basico-09__left--title {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .basico-09__left--panel {
+    flex-direction: column;
+  }
+  .basico-09__left--panel {
+    flex-direction: column;
+  }
+  .basico-09__left--item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+  .separator-09 {
+    display: none;
+  }
+  .basico-09__left--text {
+    min-height: auto;
+  }
+  .basico-09__left--title-img {
+    max-width: 157px;
+    margin: 0 auto;
+  }
+  .basico-09__left--button-info {
+    margin-top: 100px;
+  }
+}
